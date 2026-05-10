@@ -2,7 +2,7 @@ name: Bytenut 续期
 
 on:
   schedule:
-    - cron: '0 * * * *' # 每小时自动运行
+    - cron: '5,35 * * * *' # 每小时05分和35分执行
   workflow_dispatch:
 
 permissions:
